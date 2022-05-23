@@ -1,0 +1,164 @@
+body {
+    background-color: white;
+    font-family: font-family "'Roboto'", sans-serif;
+}
+.container {
+    display: grid;
+    grid-template: 1fr 1fr 1fr/1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: auto;
+    background-color: red;
+}
+.grid-title {
+    grid-column: 2/3;
+    grid-row: 1;
+    background-color: yellow;
+}
+.grid-nav-top {
+    display: grid;
+    grid-template: 1fr/ 1fr;
+    grid-column: 1/4;
+    grid-row: 2;
+    background-color: orange;
+}
+.grid-h1 {
+    grid-column: 1/4;
+    grid-row: 3;
+    background-color: pink;
+}
+.grid-menu-cards {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr 1fr;
+    grid-column: 1/4;
+    grid-row: 4/5; 
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    overflow: hidden;
+    box-shadow:  0px 0px 9px 12px green;
+  }
+  .grid-menu-cards ul li {
+    
+  }
+  .grid-menu-cards ul:hover li {
+    width: 70px;
+  }
+  .grid-menu-cards ul li:hover {
+    width: 800px;
+  }
+  .grid-menu-cards ul li img {
+    width: 900px;
+    height: 500px;
+    display: block;
+  }
+  .grid-menu-card-set {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr 1fr;
+    grid-column: 1/4;
+    grid-row: 1;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+  }
+  .grid-menu-card-set a {
+    display: block;
+    background-color: rgba(49,42,42,0.5);
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: left;
+  }
+  .grid-nav-bot {
+    display: grid;
+    grid-template: 1fr/ 1fr;
+    grid-column: 1/4;
+    grid-row: 5;
+    background-color: black;
+  }
+.title {
+
+}
+.subtitle {
+
+}
+.top-nav {
+    display: grid;
+     grid-template: 1fr/ 1fr 1fr 1fr 1fr 1fr 1fr;
+     background-color: #7FFFD4;
+     font-size: auto;
+     text-align: center;
+     height: 100%;
+     margin: auto;
+     line-height: auto;
+}
+.box-home {
+    grid-column: 1/6;
+    grid-row: 1;
+    max-height: auto;
+    margin-top: auto;
+    background-color: pink;
+}
+.box-locations {
+    grid-column: 2/6;
+    grid-row: 1;
+    max-height: auto;
+    margin-top: auto;
+    background-color: orange;
+}
+.box-about-us {
+    grid-column: 3/6;
+    grid-row: 1;
+    max-height: auto;
+    margin-top: auto;
+    background-color: purple;
+}
+.box-food-menu {
+    grid-column: 4/6;
+    grid-row: 1;
+    max-height: auto;
+    margin-top: auto;
+    background-color: grey;
+}
+.box-compose-your-menu {
+    grid-column: 5/6;
+    grid-row: 1;
+    max-height: auto;
+    margin-top: auto;
+    background-color: #000000;
+}
+h1 {
+    font-size: 10px;
+    grid-column: 1;
+    grid-row: 1;
+    background-color: blue;
+}
+.menu-card-a {
+    text-decoration: none;
+}
+a {
+  color: 	#F0F8FF;
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+.the-full-pallete-card {
+  grid-column: 1;
+  grid-row: 1/5;
+}
+.the-encahnted-plate-card {
+  grid-column: 1;
+  grid-row: 2/5;
+}
+.bastille-card {
+  grid-column: 1;
+  grid-row: 3/5;
+}
+.le-gourmand-card {
+  grid-column: 1;
+  grid-row: 4/5;
+}
